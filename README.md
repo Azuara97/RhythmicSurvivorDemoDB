@@ -22,9 +22,15 @@ The project contains scripts as:
 + EnemyAttack: manage the collision of the enemy's attack.
 + FinalBossAttack: manage the collision of the final boss attack.
 
-## Instructions
+A version of the game without use the REST API is in the repository. This version of the game use the save/load data from a file in the system, saving data in json format.
+
+## Instructions with REST API
 + Clone the repository
 + Set the database with the query or the backup in the folder SQL
 + Open and run the GameAPI project in VS
-+ Run the RhythmicSurvivor.exe in the folder Builds
++ Run the RhythmicSurvivor.exe in the folder Builds\UsingAPISQL
 + Make sure to have the GameAPI running at the same time!
+
+## Instructions without REST API
++ Clone the repository
++ Run the RhythmicSurvivor.exe in the folder Builds\NormalGame
